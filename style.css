@@ -6,7 +6,40 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 0px;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px hsl(0deg, 0%, 40%);  
+  border-style: outset;
+}
+
+
+
+.max-width-wrapper {
+  width: 50%;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  min-width: 768px;  
+}
+
+main .card {
+  background-color: white;
+  padding: 1px 16px;
+  border-bottom: 8px hsl(0deg, 0%, 60%);  
+  border-bottom-style: outset;
+
 }
 
 /* Add styles here! */
+h2.indented-heading {
+  margin-left: -24px;
+  width: fit-content;
+  background-color: hsl(45deg, 100%, 50%);
+  padding: 8px;
+  border: hsl(45deg, 100%, 50%);
+  border-bottom: 8px hsl(45deg, 100%, 50%);
+  border-style: outset;  
+} 
