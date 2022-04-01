@@ -18,19 +18,20 @@ main {
 
 
 .max-width-wrapper {
-  width: 50%;
-  margin: auto;
   margin-top: 32px;
-  margin-bottom: 32px;
-  min-width: 768px;  
+  margin-bottom: 32px;  
+  /* min-width: 768px; */
 }
 
 main .card {
   background-color: white;
   padding: 1px 16px;
-  border-bottom: 8px hsl(0deg, 0%, 60%);  
+  border-bottom: 8px #999999;  
   border-bottom-style: outset;
+}
 
+p {
+  width: fit-content;
 }
 
 /* Add styles here! */
@@ -38,8 +39,15 @@ h2.indented-heading {
   margin-left: -24px;
   width: fit-content;
   background-color: hsl(45deg, 100%, 50%);
-  padding: 8px;
+  padding: 16px;
   border: hsl(45deg, 100%, 50%);
   border-bottom: 8px hsl(45deg, 100%, 50%);
   border-style: outset;  
 } 
+
+.intro-chunk, .card {
+  width: 50%;
+  margin: auto;
+  padding: 8px;
+  min-width: 768px;  
+}
